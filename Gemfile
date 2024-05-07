@@ -31,6 +31,9 @@ gem 'cssbundling-rails'
 # Build JSON APIs with ease [https://github.com/rails/jbuilder]
 gem 'jbuilder'
 
+# Slim templating
+gem 'slim-rails'
+
 # Use Redis adapter to run Action Cable in production
 # gem "redis", ">= 4.0.1"
 
@@ -55,6 +58,9 @@ group :development, :test do
 
   # Rubocop
   gem 'rubocop-rails', require: false
+
+  # Slim linting
+  gem 'slim_lint'
 end
 
 group :development do
