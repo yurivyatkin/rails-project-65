@@ -61,6 +61,9 @@ group :development, :test do
 
   # Slim linting
   gem 'slim_lint'
+
+  # Rubocop Slim integration
+  gem 'rubocop-slim'
 end
 
 group :development do
