@@ -8,5 +8,6 @@ lint:
 
 test:
 	bin/rails test	
+	bin/rails test:system
 
 .PHONY: test
