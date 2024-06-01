@@ -64,6 +64,9 @@ group :development, :test do
 
   # Rubocop Slim integration
   gem 'rubocop-slim'
+
+  # Fake data for tests and seeding
+  gem 'faker'
 end
 
 group :development do
