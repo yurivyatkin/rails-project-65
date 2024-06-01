@@ -82,4 +82,7 @@ group :test do
   gem 'capybara'
   gem 'selenium-webdriver'
   gem 'webdrivers'
+
+  # Display test results with detailed information about variables
+  gem 'minitest-power_assert'
 end
