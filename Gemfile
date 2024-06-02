@@ -89,3 +89,7 @@ group :test do
   # Display test results with detailed information about variables
   gem 'minitest-power_assert'
 end
+
+group :production do
+  gem 'pg'
+end
